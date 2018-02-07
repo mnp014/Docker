@@ -10,7 +10,7 @@ _________________________________________________________________________
 *****************************************************************************************************************
                               Run container with docker-compose             [very EASY to run]
                              *************************************************************************
-configure automatically using "docker-compose.yml   // running docker containers
+configure automatically using "docker-compose.yml"   // running docker containers
 -------------------------------------------------------------------------
 > docker-compose up 
 _________________________________________________________________________
