@@ -1,0 +1,24 @@
+docker run -name <LoclContainerName> --link <LoclContainerName> :ActualContainerName
+------------------------------------------------------------------------------------------------
+backend
+-----------------------------------------------------------------------------------------------
+docker pull mysql
+docker run --name <pradysql> -e mySQL_ROOT_PASSWORD=abc123 -d mysql:latest
+docker ps -a
+------------------------------------------------------------------------------------------------
+Frontend
+-------------------------------------------------------------------------------------------------
+docker pull wordpress
+
+docker run --name <pradylocal> --link pradysql:mysql -p 8080:80 -d wordpress        //links wordpress to mysql named "pradysql" and names the containerad "pradylocal"
+-----------------------------------------------------------------------------------------------------
+Accessing
+-----------------------------------------------------------------------------------------------------
+goto browser > localhost:8080
+          install wordpress using promtps displayed 
+                sitetitle
+                username
+                password
+                installwordpress
+------------------------------------------------------------------------------------------------------
+                
