@@ -1,0 +1,4 @@
+option   operation                           sample command
+---------------------------------------------------------------------------------------------
+-d       detached mode                       docker run -d microsoft/nanoserver cmd
+-it      interactive mode                    docker run -it microsoft/nanoserver cmd
