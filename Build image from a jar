@@ -1,0 +1,11 @@
+> docker build -f Dockerfile -t <imageName> .
+-----------------------------------------------------------------------------------------------------------------------------------
+where:
+
+ -f                      tells which file has to be built / in this case its "Dockerfile".
+ Dockerfile              the file which is going to be built.
+ -t                      Tag name / what is it that i'm going to build / give the image any name such as <imageName>.
+ <imageName>             name of image to be created.
+ .                       "." (Dot) represents the current directory / in this case it says that the destination folder is the current directory for image creation.
+
+-----------------------------------------------------------------------------------------------------------------------------------
