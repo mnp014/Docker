@@ -1,0 +1,17 @@
+Docker --help
+  |
+  -> Docker run --help          //help regarding parameters available under "run" command
+Docker info
+Docker version
+Docker -v                       // Brief version info 
+___________________________________________________
+commands for containers
+--------------------------------------------------
+Docker create                   // create own container
+Docker pull                     // pull container from hub.docker.io
+Docker push                     // push changes to hub.docker.io
+Docker ps                       // List all process running in docker
+Docker ps -a                    // show all containers which is being executed & also shows info about the containers
+Docker rm                       // remove particular container from docker
+Docker stop <container ID>      // stops the current executing containers
+Docker images                   // shows all the images available locally
