@@ -1,0 +1,4 @@
+docker run ubuntu
+docker run -it ubuntu bash
+docker logs ubuntu
+docker logs <container id>
