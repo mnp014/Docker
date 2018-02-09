@@ -18,7 +18,7 @@ Step 3:
                    > C:\windows\system32>docker pull microsoft/nanoserver
                    
                    test using
-                   >
+                   > docker run -it microsoft/nanoserver run // opens command prompt in "microsoft/nanoserver"
 
 _______________________________________________________________________________________________________
 Cause for Problem
