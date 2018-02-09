@@ -7,12 +7,18 @@ ________________________________________________________________________________
 Easy fix:
 ------------------------------------------------------------------------------------------------------------------------------
 Step 1:
+           oper Hyper-v Manager
+           
+Step 2:
            left click on docker icon in tray
            select "Switch to windows container"
            restart if necessary.
-Step 2:
+Step 3:
            open cmd 
                    > C:\windows\system32>docker pull microsoft/nanoserver
+                   
+                   test using
+                   >
 
 _______________________________________________________________________________________________________
 Cause for Problem
