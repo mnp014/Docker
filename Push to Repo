@@ -1,0 +1,18 @@
+$ docker tag local-image:tagname reponame:tagname
+$ docker push reponame:tagname
+----------------------------------------------------------------
+example:
+> docker tag docker-spring-boot:latest prady/deleteme:springboot
+> docker push prady014/deleteme:springboot
+----------------------------------------------------------------
+
+
+
+
+Where:
+
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+hello-world            latest              12e597cfe631        19 hours ago        1.29GB
+docker-spring-boot     latest              296d21eeb19a        21 hours ago        1.35GB
+
+----------------------------------------------------------------
