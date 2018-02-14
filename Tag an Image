@@ -1,0 +1,15 @@
+> docker tag image username/repository:tag
+----------------------------------------------------------------
+Example:
+> docker tag docker-spring-boot:latest prady/deleteme:springboot
+----------------------------------------------------------------
+
+
+
+Where:
+
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+hello-world            latest              12e597cfe631        19 hours ago        1.29GB
+docker-spring-boot     latest              296d21eeb19a        21 hours ago        1.35GB
+
+----------------------------------------------------------------
