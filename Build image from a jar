@@ -9,3 +9,6 @@ where:
  .                       "." (Dot) represents the current directory / in this case it says that the destination folder is the current directory for image creation.
 
 -----------------------------------------------------------------------------------------------------------------------------------
+Example:
+> docker build -f Dockerfile -t docker-spring-boot .
+-----------------------------------------------------------------------------------------------------------------------------------
