@@ -1,7 +1,0 @@
-$ docker tag local-image:tagname reponame:tagname
-$ docker push reponame:tagname
-----------------------------------------------------------------
-example:
-> docker tag docker-spring-boot:latest prady014/deleteme:springboot
-> docker push prady014/deleteme:springboot
-----------------------------------------------------------------
