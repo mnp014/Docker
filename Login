@@ -1,0 +1,5 @@
+docker login <dtr.example.org>
+----------------------------------------------------------
+docker login
+By Default logs in into <https://index.docker.io/v1/>
+----------------------------------------------------------
