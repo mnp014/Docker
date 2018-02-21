@@ -1,0 +1,23 @@
+Specify 
+"readonly" if using "--monut"
+"ro" if using "-v" or "--volume"
+_______________________________________________________________________________
+# example1:
+
+  > docker run -d \
+  --name=nginxtest \
+  --mount source=nginx-vol,destination=/usr/share/nginx/html,readonly \
+  nginx:latest
+  ---------------------------------------------------------------------------
+# example2:
+
+  > docker run -d \
+  --name=nginxtest \
+  -v nginx-vol:/usr/share/nginx/html:ro \
+  nginx:latest
+ _______________________________________________________________________________  
+ Cleanup 
+  > docker container stop nginxtest
+  > docker container rm nginxtest
+  > docker volume rm nginx-vol
+ _______________________________________________________________________________    
