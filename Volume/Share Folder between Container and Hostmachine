@@ -1,0 +1,22 @@
+            >docker run -d -v <Host-Machine-Folder-Path>:<Container-Machine-Folder-Path> image
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Example shows how to share windows folder [WinSF] @ path [C:/Docker/WinSF] with alphinelinux container's shared folder LinSF @ path [/LinSF]
+
+                  >docker run -d -v C:/Docker/WinSF:/LinSF alphinelinux:latest
+
+--------------------------------------------------------------------------------------------------------------------------
+test: docker inspect <container-id>
+
+  "Type": "bind",
+  "Source": "/host_mnt/c/Docker/winSF",
+  "Destination": "/LinSFr",
+  "Mode": "",
+  "RW": true,
+  "Propagation": "rprivate"
+
+--------------------------------------------------------------------------------------------------------------------------
+
+  #Note: Change sharing properties of "WinSF" to be [shared with everone]/[Custom-share-preference]
+
+--------------------------------------------------------------------------------------------------------------------------
