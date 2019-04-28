@@ -1,1 +1,4 @@
- - [Set Active docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Select%20Active%20Machine.md)
+ - [Set Active Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Select%20Active%20Machine.md)
+ - [Start Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
+ - [Stop Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
+ - [Re-Start Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
