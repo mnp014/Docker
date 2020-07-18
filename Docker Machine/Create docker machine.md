@@ -23,7 +23,9 @@
   ```
 
 -----
-## Command to Create docker machine on different platforms:
+## Shell scripts to create docker machine on different platforms:  
+Step 1: 
+Copy the following into `<script>.sh` file and run them as scripts 
 
 ### 1. Create on VirtualBox: 
 
