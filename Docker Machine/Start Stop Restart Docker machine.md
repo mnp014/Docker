@@ -4,7 +4,7 @@ $ docker-machine start <docker-machine name>
 ```
  #### Restart:
 ```
-$ docker-machine start <docker-machine name>
+$ docker-machine restart <docker-machine name>
 ```
  #### Stop:
 ```
