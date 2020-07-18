@@ -15,6 +15,7 @@
   
  
  - [Create Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Create%20docker%20machine.md)
+ - [Clean local Docker-machine env](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Clean%20local%20docker%20env.md)
  - [Config file path](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Config%20file%20path.md)
  - [Delete Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Delete%20Create%20docker%20machine.md)
  - [Docker machine timeout - how to fix without destroying the machine?]()
@@ -22,8 +23,10 @@
  - [Start Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
  - [Stop Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
  - [Re-Start Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
+ - [SSH into Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Connect%20using%20SSH.md)  
  - [Uninstall Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Uninstall%20Docker%20Machine.md)  
- - [View Docker-machine Env](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/View%20Env%20of%20Docker-machine.md)  
+ - [View Docker-machine Env](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/View%20Env%20of%20Docker-machine.md)
+ - [View Active Docker machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/View%20active%20docker%20machine.md)  
  - [View all Docker-machines](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/View%20docker-machine.md)  
  
 #### References:  
