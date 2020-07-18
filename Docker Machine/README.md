@@ -61,12 +61,14 @@
   
 -----
   
- 
- - [Create Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Create%20docker%20machine.md)
+ - [Activate Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Activate%20docker-machine%20environment.md)
  - [Clean local Docker-machine env](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Clean%20local%20docker%20env.md)
  - [Config file path](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Config%20file%20path.md)
+ - [Copy files between machines](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Copy%20files%20between%20machines.md)
+ - [Create Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Create%20docker%20machine.md)
+ - [Curl to docker machine in script](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Curl%20to%20docker%20machine%20in%20script.md)
  - [Delete Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Delete%20Create%20docker%20machine.md)
- - [Docker machine timeout - how to fix without destroying the machine?]()
+ - [Docker machine timeout - how to fix without destroying the machine?](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Docker%20machine%20timeout%20-%20how%20to%20fix%20without%20destroying%20the%20machine%3F.md)
  - [Set Active Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Select%20Active%20Machine.md)
  - [Start Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
  - [Stop Docker-machine](https://github.com/mnp014/Docker/tree/master/Docker%20Machine)
