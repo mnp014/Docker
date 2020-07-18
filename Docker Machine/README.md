@@ -10,6 +10,54 @@
   The main reason we would use of **docker-machine** is to create a **deployment environment** for an application and manage all the micro-services running on it.
   For instance, we can easily have a `development`, `staging` and `production` environment accessible from your own machine and update them accordingly.
   
+  ##### To illustrate this with a sample docker file:
+  where content of Docker-file is:  
+  ```
+     version: '2'
+     services:
+     web:
+     image: dockercloud/hello-world:latest
+     ports:
+     - "80:80"
+  ```
+  
+  ###### [case 1] Running docker locally:
+   - Spin up the docker instance:
+     ```
+     docker-compose up -d
+     ```
+     
+   - Access index.html  
+     ```
+     curl localhost:80
+     ```
+   - Stop the created container
+     ```
+     docker-compose down
+     ```     
+  ###### [case 2] Running docker remotely using docker machine:
+   - Select the remote docker instance:
+     ```
+     eval $(docker-machine env sample-machine)
+     ```
+   - Validate selected environment
+     ```
+     docker-machine active
+     ```
+   - Spin up the docker instance:
+     ```
+     docker-compose up -d
+     ```
+   - Access index.html  
+     ```
+     curl $(docker-machine ip demo-machine):80
+     ```
+   - Stop the created container
+     ```
+     docker-compose down
+     ```
+  
+  
   
 -----
   
