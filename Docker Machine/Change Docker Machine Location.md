@@ -20,3 +20,8 @@ Example:
 C:\Users\username>mklink /j .docker D:\.docker
 Junction created for .docker <<===>> D:\.docker
 ```
+
+
+
+Refer for updated commands:
+https://stackoverflow.com/questions/33933107/change-docker-machine-location-windows#:~:text=As%20it%20turns%20out%2C%20the,%5Cmachine%5Cmachines%5Cdefault.
