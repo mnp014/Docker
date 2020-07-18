@@ -62,6 +62,7 @@
 -----
   
  - [Activate Docker-machine](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Activate%20docker-machine%20environment.md)
+ - [Change Docker-machine location](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Change%20Docker%20Machine%20Location.md)
  - [Clean local Docker-machine env](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Clean%20local%20docker%20env.md)
  - [Config file path](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Config%20file%20path.md)
  - [Copy files between machines](https://github.com/mnp014/Docker/blob/master/Docker%20Machine/Copy%20files%20between%20machines.md)
